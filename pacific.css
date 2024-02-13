@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90C7E3;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #002171;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url('sunset.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 72px;
+}
+
+nav {
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+nav a {
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none; /* New style rule to remove underline */
+    color: #000;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2em;
+    display: block;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.70em;
+    font-style: italic;
+    padding: 1em;
+}
+
+.resort {
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url('coast.jpg');
+    background-size: 100% 100%;
+}
+
+#yurthero {
+    height: 300px;
+    background-image: url('yurt.jpg');
+    background-size: 100% 100%;
+}
+
+#trailhero {
+    height: 300px;
+    background-image: url('trail.jpg');
+    background-size: 100% 100%;
+}
+
+#yurtImage {
+    text-align: center;
+}
+
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
