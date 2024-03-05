@@ -1,115 +1,80 @@
-body {
+/* Resetting default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, input, button, select {
     margin: 0;
     padding: 0;
-    background-color: #90C7E3;
-    color: #666666;
-    font-family: Verdana, Arial, sans-serif;
 }
 
-header {
-    background-color: #002171;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 0;
-    background-image: url('sunset.jpg');
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 72px;
-}
-
-nav {
-    text-align: center;
-    padding: 0.5em 0.5em 0.5em 0.5em;
-}
-
-nav a {
-    font-weight: bold;
-    margin-right: 10px;
-    text-decoration: none; /* New style rule to remove underline */
-    color: #000;
-}
-
-main {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 2em;
-    display: block;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 #wrapper {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #005a8d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #007acc;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #007acc;
+}
+
+main {
+    padding: 20px 0;
 }
 
 footer {
+    background-color: #005a8d;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    font-size: 0.70em;
-    font-style: italic;
+}
+
+/* Adjustments as per your request */
+#shophero {
+    background-image: url('psunset.jpg');
+    background-size: cover; /* Adjusts the background image size */
+    background-position: center; /* Centers the background image */
+    height: 300px; /* Set a specific height for the hero section */
+}
+
+.shop {
+    margin: 1em;
+    background-color: #F4F4F4;
+}
+
+.shop img {
+    float: right;
     padding: 1em;
 }
 
-.resort {
-    color: #1976D2;
-    font-size: 1.2em;
+.shop form {
+    clear: right;
 }
 
-#homehero {
-    height: 300px;
-    background-image: url('coast.jpg');
-    background-size: 100% 100%;
-}
-
-#yurthero {
-    height: 300px;
-    background-image: url('yurt.jpg');
-    background-size: 100% 100%;
-}
-
-#trailhero {
-    height: 300px;
-    background-image: url('trail.jpg');
-    background-size: 100% 100%;
-}
-
-#yurtImage {
-    text-align: center;
-}
-
-.image-container {
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-}
-
-/* New styles added below */
-
-@media screen and (min-width: 600px) {
-    form {
-        width: 60%;
-        display: grid;
-        grid-template-columns: 10em 1fr;
-        grid-gap: 1em;
+/* Media Queries */
+@media (min-width: 768px) {
+    #shophero {
+        background-size: 100% 100%;
     }
-
-    form input,
-    form textarea {
-        margin-bottom: 0.5em;
-    }
-
-    form button[type="submit"] {
-        grid-column: 2;
-        width: 9em;
-    }
-}
-
-#reshero {
-    height: 300px;
-    background-image: url('ocean.jpg');
-    background-size: 100% 100%; /* Updated background size */
-    background-repeat: no-repeat;
 }
