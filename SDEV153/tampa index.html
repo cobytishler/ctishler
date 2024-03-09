@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampa Travel Guide</title>
+    <link rel="stylesheet" href="tampa.css">
+</head>
+<body>
+    <header>
+        <img src="city-of-tampa-logo-300x200.png" alt="City of Tampa Logo">
+        <h1>Tampa Travel Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+                <li><a href="culture.html">Culture</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to the Tampa Travel Guide!</h2>
+            <p>Providing essential information for travelers visiting Tampa, Florida. Featuring top attractions, dining recommendations, accommodation options, transportation tips, and local insights to help visitors make the most of their time in the city.</p>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="process_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section>
+            <img src="tampa index pic.jpeg" alt="Tampa Index Pic">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

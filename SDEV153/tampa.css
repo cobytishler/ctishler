@@ -1,0 +1,84 @@
+/* Define CSS variables for the color scheme */
+:root {
+    --dark-red: #C70F2E;
+    --white: #FFFFFF;
+    --navy-blue: #002673;
+    --yellow: #FFFF40;
+    --light-yellow: #F5DC0F;
+    --green: #006B2B;
+}
+
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white); /* Set the background color to white */
+    color: var(--navy-blue); /* Set the text color to navy blue */
+}
+
+h1 {
+    color: var(--navy-blue); /* Set the heading color to navy blue */
+}
+
+/* Header styles */
+header {
+    background-color: var(--dark-red); /* Set the header background color to dark red */
+    color: var(--white); /* Set the header text color to white */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: var(--white); /* Set the navigation link color to white */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--dark-red); /* Set the footer background color to dark red */
+    color: var(--white); /* Set the footer text color to white */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Links styles */
+a {
+    color: var(--yellow); /* Set the link color to yellow */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
